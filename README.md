@@ -1,6 +1,5 @@
-# Aplikasi Manajemen Catatan
-
-Aplikasi ini merupakan manajer catatan sederhana yang dibangun menggunakan Node.js. Dengan aplikasi ini, pengguna dapat menambahkan, menghapus, dan membaca catatan yang disimpan dalam file `catatan.json`.
+# Aplikasi Buku-Catatan
+Aplikasi ini merupakan manajer catatan sederhana yang dibangun menggunakan Node.js. Dengan aplikasi ini, pengguna dapat menambahkan, menghapus catatan yang disimpan dalam file `catatan.json`.
 
 ## Deskripsi Singkat
 
@@ -39,14 +38,7 @@ Gunakan perintah `node app.js [command] [options]` untuk berinteraksi dengan apl
    node app.js hapus --judul="Judul Catatan"
    ```
 
-3. **Membaca Catatan**
-   ```bash
-   node app.js baca --judul="Judul Catatan"
-   ```
 
-4. **Membaca Semua Catatan**
-   ```bash
-   node app.js bacaSemua
    ```
 
 ## Struktur File
