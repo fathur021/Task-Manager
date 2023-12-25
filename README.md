@@ -1,13 +1,12 @@
-# Aplikasi Buku-Catatan
-Aplikasi ini merupakan manajer catatan sederhana yang dibangun menggunakan Node.js. Dengan aplikasi ini, pengguna dapat menambahkan, menghapus catatan yang disimpan dalam file `catatan.json`.
+# Task-Manager
 
-## Deskripsi Singkat
+Aplikasi Task Manager menggunakan MongoDB dan Node.js untuk melakukan operasi dasar seperti membaca, menambahkan, memperbarui, dan menghapus data dari database. Dalam proyek ini, kita akan menggambarkan tiga operasi utama: membaca data, menambahkan data, memperbarui data, dan menghapus data menggunakan MongoDB.
 
-Proyek ini bertujuan untuk memfasilitasi pengguna dalam mengelola catatan sederhana. Aplikasi ini menggunakan Node.js dan beberapa paket seperti `chalk`, `validator`, dan `yargs` untuk menjalankan fungsionalitas utamanya.
 
 ## Instalasi
 
-Pastikan Anda telah menginstal Node.js di komputer Anda sebelum menggunakan aplikasi ini.
+1. install node.js
+2. install mongo.db
 
 ### Langkah-langkah Instalasi:
 
@@ -18,35 +17,29 @@ Pastikan Anda telah menginstal Node.js di komputer Anda sebelum menggunakan apli
 
 2. **Instalasi Dependensi**
    ```bash
-   cd nama-folder-proyek
-   npm install
+   
+   npm install mongoose
    ```
 
-## Penggunaan
 
-Gunakan perintah `node app.js [command] [options]` untuk berinteraksi dengan aplikasi.
+### Struktur Direktori:
 
-### Contoh Penggunaan:
-
-1. **Menambahkan Catatan Baru**
    ```bash
-   node app.js tambah --judul="Judul Catatan" --isi="Isi Catatan"
+   readDocument.js: Membaca data dari MongoDB.
+   insertDocument.js: Menambahkan data ke MongoDB.
+   updateDocument.js: Memperbarui data di MongoDB.
+   deleteDocument.js: Menghapus data dari MongoDB.
    ```
 
-2. **Menghapus Catatan**
+### Menjalankan Aplikasi:
+
    ```bash
-   node app.js hapus --judul="Judul Catatan"
+   node readDocument.js
+   node insertDocument.js
+   node updateDocument.js
+   node deleteDocument.js
+
    ```
-
-
-   ```
-
-## Struktur File
-
-- `app.js`: Logika utama aplikasi dan implementasi komando yang dapat dijalankan.
-- `catatan.js`: Modul untuk mengelola catatan, termasuk fungsi untuk menambah, menghapus, membaca, dan mengambil semua catatan.
-- `catatan.json`: File penyimpanan data catatan dalam format JSON.
-
 
 
 ## Kontak
