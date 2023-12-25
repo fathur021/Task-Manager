@@ -46,7 +46,7 @@ Aplikasi Task Manager menggunakan MongoDB dan Node.js untuk melakukan operasi da
 
 Jika Anda memiliki pertanyaan atau umpan balik, jangan ragu untuk menghubungi:
 
-- Email: fathur021@email.com
+- Email: fathur00013@email.com
 
 
 ---
